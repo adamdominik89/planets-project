@@ -1,0 +1,22 @@
+{
+  "name": "planets-project",
+  "version": "1.0.0",
+  "description": "check\r check 2\r check 2\r check 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdominik89/planets-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamdominik89/planets-project/issues"
+  },
+  "homepage": "https://github.com/adamdominik89/planets-project#readme",
+  "dependencies": {
+    "csv-parse": "^5.2.0"
+  }
+}
