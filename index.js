@@ -22,7 +22,7 @@ fs.createReadStream('./kepler_data.csv')
     .on('error', (error) => {
         console.error(error);
     })
-    .on('end', (res) => {
+    .on('end', () => {
         console.log(habitablePlanets);
         console.log(`${habitablePlanets.length} habitable planets found`);
         console.log('done');
